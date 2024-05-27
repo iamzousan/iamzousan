@@ -1,7 +1,3 @@
-/* Font Nunito Sans
-https://fonts.google.com/specimen/Nunito+Sans
------------------------------------------------------ */
-
 /* Font-Face Declarations */
 @font-face {
   font-family: 'Nunito Sans';
@@ -38,7 +34,7 @@ https://fonts.google.com/specimen/Nunito+Sans
 .tl-timeline h6 {
   font-family: 'Nunito Sans', cursive;
   text-transform: none;
-  font-weight: 900; /* Increase weight for fuller look */
+  font-weight: 900;
   font-size: 56px; /* Increased size by 20% from 46px */
   line-height: 56px; /* Adjusted line height */
 }
@@ -53,14 +49,14 @@ https://fonts.google.com/specimen/Nunito+Sans
   font-family: 'Nunito Sans', sans-serif;
   font-size: 16px;
   line-height: 1.3em;
-  font-weight: 600; /* Slightly bolder text */
+  font-weight: 700; /* Even bolder text */
 }
 
 .tl-timeline .tl-media .tl-media-wikipedia h4 a,
 .tl-timeline .tl-media h4,
 .tl-timeline .tl-media h4 a {
   font-family: 'Nunito Sans', sans-serif;
-  font-weight: 900; /* Increase weight for fuller look */
+  font-weight: 900;
   font-size: 24px;
   line-height: 24px;
 }
@@ -72,7 +68,7 @@ https://fonts.google.com/specimen/Nunito+Sans
 }
 
 .tl-timeline .vcard {
-  font-weight: 400; /* Keep normal weight for vcard */
+  font-weight: 400;
 }
 
 .tl-timeline .tl-slidenav-next,
@@ -80,7 +76,7 @@ https://fonts.google.com/specimen/Nunito+Sans
 .tl-timeline .tl-message,
 .tl-timeline .tl-timegroup-message {
   font-family: 'Nunito Sans', sans-serif;
-  font-weight: 900; /* Increase weight for fuller look */
+  font-weight: 900;
   text-transform: none;
 }
 
@@ -94,20 +90,20 @@ https://fonts.google.com/specimen/Nunito+Sans
 .tl-timeline .tl-headline-date,
 .tl-timeline h3.tl-headline-date {
   font-family: 'Nunito Sans', sans-serif;
-  font-weight: 600; /* Slightly bolder text */
+  font-weight: 700; /* Even bolder text */
   text-transform: none;
 }
 
 .tl-timeline .tl-headline-date small,
 .tl-timeline h3.tl-headline-date small {
-  font-weight: 600; /* Slightly bolder text */
+  font-weight: 700; /* Even bolder text */
 }
 
 .tl-timeline .tl-timenav-slider,
 .tl-timeline .tl-timenav-slider h2.tl-headline,
 .tl-timeline .tl-timenav-slider .tl-timeaxis {
   font-family: 'Nunito Sans', sans-serif;
-  font-weight: 900; /* Increase weight for fuller look */
+  font-weight: 900;
   text-transform: none;
 }
 
@@ -119,14 +115,15 @@ https://fonts.google.com/specimen/Nunito+Sans
 .tl-timeline blockquote p {
   font-family: 'Nunito Sans', sans-serif;
   font-style: normal;
-  font-weight: 600; /* Slightly bolder text */
+  font-weight: 700; /* Even bolder text */
   line-height: 1.3;
 }
 
 input[type="text"].editor-headline {
   font-family: 'Nunito Sans', cursive;
   text-transform: none;
-  font-weight: 900; /* Increase weight for fuller look */
-  font-size: 56px; /* Increased size by 20% from 46px */
-  line-height: 56px; /* Adjusted line height */
+  font-weight: 900;
+  font-size: 56px;
+  line-height: 56px;
 }
+
