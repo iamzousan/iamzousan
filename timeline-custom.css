@@ -13,7 +13,7 @@ https://fonts.google.com/specimen/Nunito+Sans
 @font-face {
   font-family: 'Nunito Sans';
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
   src: url(https://fonts.gstatic.com/s/nunitosans/v8/pe03MImSLYBIv1o4X1M8cc8GBs5jU1EQVg.ttf) format('truetype');
 }
 
@@ -27,9 +27,9 @@ https://fonts.google.com/specimen/Nunito+Sans
 /* Font Base */
 .tl-timeline {
   font-family: 'Nunito Sans', sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.3em;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 1.2em;
   color: #FFCB05; /* Set consistent font color */
 }
 
@@ -48,15 +48,17 @@ https://fonts.google.com/specimen/Nunito+Sans
 }
 
 .tl-timeline h2.tl-headline-title {
-  font-size: 70px;
-  line-height: 70px;
+  font-size: 100px;
+  line-height: 100px;
+  font-weight: 400
+  color: #FFCB05
 }
 
 .tl-timeline p,
 .tl-timeline ul {
   font-family: 'Nunito Sans', sans-serif;
-  font-size: 16px;
-  line-height: 1.3em;
+  font-size: 17px;
+  line-height: 1.2em;
   font-weight: 700; /* Increase font weight for better readability */
   color: #FFCB05; /* Set consistent font color */
 }
