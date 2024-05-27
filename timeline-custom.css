@@ -15,6 +15,12 @@ https://fonts.google.com/specimen/Nunito+Sans
   font-weight: 700;
   src: url(https://fonts.gstatic.com/s/nunitosans/v8/pe0qMImSLYBIv1o4X1M8cc9yAvth_Lor4Bxr.ttf) format('truetype');
 }
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 900;
+  src: url(https://fonts.gstatic.com/s/nunitosans/v8/pe0qMImSLYBIv1o4X1M8cc9yAvth_Lor4Bxr.ttf) format('truetype');
+}
 
 /* Font Base */
 .tl-timeline {
@@ -32,29 +38,29 @@ https://fonts.google.com/specimen/Nunito+Sans
 .tl-timeline h6 {
   font-family: 'Nunito Sans', cursive;
   text-transform: none;
-  font-weight: 700;
-  font-size: 50px;  /* Increased font size */
-  line-height: 50px;  /* Adjusted line height */
+  font-weight: 900; /* Increase weight for fuller look */
+  font-size: 56px; /* Increased size by 20% from 46px */
+  line-height: 56px; /* Adjusted line height */
 }
 
 .tl-timeline h2.tl-headline-title {
-  font-size: 62px;  /* Increased font size */
-  line-height: 62px;  /* Adjusted line height */
+  font-size: 70px; /* Increased size by 20% from 58px */
+  line-height: 70px; /* Adjusted line height */
 }
 
 .tl-timeline p,
 .tl-timeline ul {
   font-family: 'Nunito Sans', sans-serif;
-  font-weight: 500;  /* Increased font weight */
   font-size: 16px;
   line-height: 1.3em;
+  font-weight: 600; /* Slightly bolder text */
 }
 
 .tl-timeline .tl-media .tl-media-wikipedia h4 a,
 .tl-timeline .tl-media h4,
 .tl-timeline .tl-media h4 a {
   font-family: 'Nunito Sans', sans-serif;
-  font-weight: 700;
+  font-weight: 900; /* Increase weight for fuller look */
   font-size: 24px;
   line-height: 24px;
 }
@@ -66,7 +72,7 @@ https://fonts.google.com/specimen/Nunito+Sans
 }
 
 .tl-timeline .vcard {
-  font-weight: normal;
+  font-weight: 400; /* Keep normal weight for vcard */
 }
 
 .tl-timeline .tl-slidenav-next,
@@ -74,7 +80,7 @@ https://fonts.google.com/specimen/Nunito+Sans
 .tl-timeline .tl-message,
 .tl-timeline .tl-timegroup-message {
   font-family: 'Nunito Sans', sans-serif;
-  font-weight: 700;
+  font-weight: 900; /* Increase weight for fuller look */
   text-transform: none;
 }
 
@@ -88,20 +94,20 @@ https://fonts.google.com/specimen/Nunito+Sans
 .tl-timeline .tl-headline-date,
 .tl-timeline h3.tl-headline-date {
   font-family: 'Nunito Sans', sans-serif;
-  font-weight: normal;
+  font-weight: 600; /* Slightly bolder text */
   text-transform: none;
 }
 
 .tl-timeline .tl-headline-date small,
 .tl-timeline h3.tl-headline-date small {
-  font-weight: normal;
+  font-weight: 600; /* Slightly bolder text */
 }
 
 .tl-timeline .tl-timenav-slider,
 .tl-timeline .tl-timenav-slider h2.tl-headline,
 .tl-timeline .tl-timenav-slider .tl-timeaxis {
   font-family: 'Nunito Sans', sans-serif;
-  font-weight: 700;
+  font-weight: 900; /* Increase weight for fuller look */
   text-transform: none;
 }
 
@@ -113,14 +119,15 @@ https://fonts.google.com/specimen/Nunito+Sans
 .tl-timeline blockquote p {
   font-family: 'Nunito Sans', sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600; /* Slightly bolder text */
   line-height: 1.3;
 }
 
 input[type="text"].editor-headline {
   font-family: 'Nunito Sans', cursive;
   text-transform: none;
-  font-weight: 700;
-  font-size: 46px;
-  line-height: 46px;
+  font-weight: 900; /* Increase weight for fuller look */
+  font-size: 56px; /* Increased size by 20% from 46px */
+  line-height: 56px; /* Adjusted line height */
 }
+
