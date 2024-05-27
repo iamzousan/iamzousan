@@ -33,18 +33,19 @@ https://fonts.google.com/specimen/Nunito+Sans
   font-family: 'Nunito Sans', cursive;
   text-transform: none;
   font-weight: 700;
-  font-size: 46px;
-  line-height: 46px;
+  font-size: 50px;  /* Increased font size */
+  line-height: 50px;  /* Adjusted line height */
 }
 
 .tl-timeline h2.tl-headline-title {
-  font-size: 58px;
-  line-height: 58px;
+  font-size: 62px;  /* Increased font size */
+  line-height: 62px;  /* Adjusted line height */
 }
 
 .tl-timeline p,
 .tl-timeline ul {
   font-family: 'Nunito Sans', sans-serif;
+  font-weight: 500;  /* Increased font weight */
   font-size: 16px;
   line-height: 1.3em;
 }
