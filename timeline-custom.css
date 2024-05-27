@@ -25,114 +25,114 @@ https://fonts.google.com/specimen/Nunito+Sans
 }
 
 /* Font Base */
-.tl-timeline {
-  font-family: 'Nunito Sans', sans-serif;
+body .tl-timeline {
+  font-family: 'Nunito Sans', sans-serif !important;
   font-weight: 600;
   font-size: 17px;
   line-height: 1.2em;
   color: #FFCB05; /* Set consistent font color */
 }
 
-.tl-timeline h1,
-.tl-timeline h2,
-.tl-timeline h3,
-.tl-timeline h4,
-.tl-timeline h5,
-.tl-timeline h6 {
-  font-family: 'Nunito Sans', cursive;
+body .tl-timeline h1,
+body .tl-timeline h2,
+body .tl-timeline h3,
+body .tl-timeline h4,
+body .tl-timeline h5,
+body .tl-timeline h6 {
+  font-family: 'Nunito Sans', cursive !important;
   text-transform: none;
   font-weight: 900;
   font-size: 56px;
   line-height: 56px;
-  color: #FFCB05; /* Set consistent font color */
+  color: #FFCB05 !important; /* Set consistent font color */
 }
 
-.tl-timeline h2.tl-headline-title {
-  font-size: 100px;
-  line-height: 100px;
-  font-weight: 400;
-  color: #FFCB05;
+body .tl-timeline h2.tl-headline-title {
+  font-size: 100px !important;
+  line-height: 100px !important;
+  font-weight: 400 !important;
+  color: #FFCB05 !important;
 }
 
-.tl-timeline p,
-.tl-timeline ul {
-  font-family: 'Nunito Sans', sans-serif;
+body .tl-timeline p,
+body .tl-timeline ul {
+  font-family: 'Nunito Sans', sans-serif !important;
   font-size: 17px;
   line-height: 1.2em;
   font-weight: 700; /* Increase font weight for better readability */
-  color: #FFCB05; /* Set consistent font color */
+  color: #FFCB05 !important; /* Set consistent font color */
 }
 
-.tl-timeline .tl-media .tl-media-wikipedia h4 a,
-.tl-timeline .tl-media h4,
-.tl-timeline .tl-media h4 a {
-  font-family: 'Nunito Sans', sans-serif;
+body .tl-timeline .tl-media .tl-media-wikipedia h4 a,
+body .tl-timeline .tl-media h4,
+body .tl-timeline .tl-media h4 a {
+  font-family: 'Nunito Sans', sans-serif !important;
   font-weight: 900;
   font-size: 24px;
   line-height: 24px;
-  color: #FFCB05; /* Set consistent font color */
+  color: #FFCB05 !important; /* Set consistent font color */
 }
 
-.tl-timeline .tl-caption,
-.tl-timeline .tl-credit,
-.tl-timeline .vcard {
-  font-family: 'Nunito Sans', sans-serif;
-  color: #FFCB05; /* Set consistent font color */
+body .tl-timeline .tl-caption,
+body .tl-timeline .tl-credit,
+body .tl-timeline .vcard {
+  font-family: 'Nunito Sans', sans-serif !important;
+  color: #FFCB05 !important; /* Set consistent font color */
 }
 
-.tl-timeline .vcard {
-  font-weight: 400;
+body .tl-timeline .vcard {
+  font-weight: 400 !important;
 }
 
-.tl-timeline .tl-slidenav-next,
-.tl-timeline .tl-slidenav-previous,
-.tl-timeline .tl-message,
-.tl-timeline .tl-timegroup-message {
-  font-family: 'Nunito Sans', sans-serif;
+body .tl-timeline .tl-slidenav-next,
+body .tl-timeline .tl-slidenav-previous,
+body .tl-timeline .tl-message,
+body .tl-timeline .tl-timegroup-message {
+  font-family: 'Nunito Sans', sans-serif !important;
   font-weight: 900;
   text-transform: none;
-  color: #FFCB05; /* Set consistent font color */
+  color: #FFCB05 !important; /* Set consistent font color */
 }
 
-.tl-timeline .tl-slidenav-next .tl-slidenav-title,
-.tl-timeline .tl-slidenav-previous .tl-slidenav-title,
-.tl-timeline .tl-message .tl-slidenav-title,
-.tl-timeline .tl-timegroup-message .tl-slidenav-title {
-  line-height: 1.3em;
+body .tl-timeline .tl-slidenav-next .tl-slidenav-title,
+body .tl-timeline .tl-slidenav-previous .tl-slidenav-title,
+body .tl-timeline .tl-message .tl-slidenav-title,
+body .tl-timeline .tl-timegroup-message .tl-slidenav-title {
+  line-height: 1.3em !important;
 }
 
-.tl-timeline .tl-headline-date,
-.tl-timeline h3.tl-headline-date {
-  font-family: 'Nunito Sans', sans-serif;
-  font-weight: 700;
+body .tl-timeline .tl-headline-date,
+body .tl-timeline h3.tl-headline-date {
+  font-family: 'Nunito Sans', sans-serif !important;
+  font-weight: 700 !important;
   text-transform: none;
-  color: #FFCB05; /* Set consistent font color */
+  color: #FFCB05 !important; /* Set consistent font color */
 }
 
-.tl-timeline .tl-headline-date small,
-.tl-timeline h3.tl-headline-date small {
-  font-weight: 700;
+body .tl-timeline .tl-headline-date small,
+body .tl-timeline h3.tl-headline-date small {
+  font-weight: 700 !important;
 }
 
-.tl-timeline .tl-timenav-slider,
-.tl-timeline .tl-timenav-slider h2.tl-headline,
-.tl-timeline .tl-timenav-slider .tl-timeaxis {
-  font-family: 'Nunito Sans', sans-serif;
+body .tl-timeline .tl-timenav-slider,
+body .tl-timeline .tl-timenav-slider h2.tl-headline,
+body .tl-timeline .tl-timenav-slider .tl-timeaxis {
+  font-family: 'Nunito Sans', sans-serif !important;
   font-weight: 900;
   text-transform: none;
-  color: #FFCB05; /* Set consistent font color */
+  color: #FFCB05 !important; /* Set consistent font color */
 }
 
-.tl-timeline .tl-menubar {
-  font-family: 'Nunito Sans', sans-serif;
-  color: #FFCB05; /* Set consistent font color */
+body .tl-timeline .tl-menubar {
+  font-family: 'Nunito Sans', sans-serif !important;
+  color: #FFCB05 !important; /* Set consistent font color */
 }
 
-.tl-timeline blockquote,
-.tl-timeline blockquote p {
-  font-family: 'Nunito Sans', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 1.3em;
-  color: #FFCB05; /* Set consistent font color */
+body .tl-timeline blockquote,
+body .tl-timeline blockquote p {
+  font-family: 'Nunito Sans', sans-serif !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  line-height: 1.3em !important;
+  color: #FFCB05 !important; /* Set consistent font color */
 }
